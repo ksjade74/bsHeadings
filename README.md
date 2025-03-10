@@ -2,9 +2,12 @@
 bootstrap 5 headings
 
 반응형 디자인을 위한 <제목> 폰트 사이즈 정의
+
 ㄴ 반응형을 위해 rem 단위 사용 (px 사이즈 참고)
 
+
 Font Size Default : 1rem / 16px
+
 
 h1 - font-size: 2.5rem (40px)
 h2 - font-size: 2rem (32px)
