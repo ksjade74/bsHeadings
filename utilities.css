@@ -27,18 +27,19 @@
 :root {
     --main-rgb: 234, 0, 44;
     --sub-rgb: 255, 122, 0;
-    --red-rgb: 255, 84, 55;
-    --blue-rgb: 20, 51, 255;
-    --green-rgb: 88, 201, 149;
-    --yellow-rgb: 255, 204, 0;
+    --red-rgb: 247, 11, 74;
+    --blue-rgb: 24, 102, 226;
+    --green-rgb: 1, 136, 125;
+    --yellow-rgb: 255, 208, 61;
     --orange-rgb: 255, 122, 0;
-    --purple-rgb: 152, 112, 254;
-    --pink-rgb: 255, 75, 141;
+    --purple-rgb: 122, 70, 255;
+    --pink-rgb: 255, 104, 151;
     --cyan-rgb: 0, 255, 255;
     --teal-rgb: 0, 127, 127;
     --light-rgb: 255, 255, 255;
     --dark-rgb: 0, 0, 0;
     --header-rgb: 34, 34, 34;
+    --bg-gray: 150, 150, 150;
     --gray-100: #f8f9fa;
     --gray-200: #e9ecef;
     --gray-300: #dee2e6;
@@ -191,6 +192,11 @@ h6,
 
 .text-gray-900 {
     color: var(--gray-900) !important;
+}
+
+.bg-gray {
+    --bg-opacity: 1;
+    background-color: rgba(var(--bg-gray), var(--bg-opacity)) !important;
 }
 
 .bg-gray-100 {
@@ -851,6 +857,7 @@ h6,
 }
 
 @media (min-width: 992px) {
+
     .mt-lg-6,
     .my-lg-6 {
         margin-top: 4.5rem !important;
@@ -1151,5 +1158,26 @@ h6,
     .pb-xl-10,
     .py-xl-10 {
         padding-bottom: 10rem !important;
+    }
+}
+
+@media (max-width: 576px) {
+    .fs-xs-24 {
+        font-size: 1.5rem !important;
+    }
+    .fs-xs-20 {
+        font-size: 1.25rem !important;
+    }
+    .fs-xs-18 {
+        font-size: 1.125rem !important;
+    }
+    .fs-xs-16 {
+        font-size: 1rem !important;
+    }
+    .fs-xs-14 {
+        font-size: .825rem !important;
+    }
+    .lh-160 {
+        line-height: 160% !important;
     }
 }
