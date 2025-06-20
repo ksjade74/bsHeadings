@@ -1,4 +1,4 @@
-# bsHeadings
+# utilities
 bootstrap 5 headings
 
 ### 반응형 디자인을 위한 <제목> 폰트 사이즈 정의
